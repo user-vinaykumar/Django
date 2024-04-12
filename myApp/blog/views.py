@@ -9,4 +9,6 @@ def home(request):
 def login(request):
     return HttpResponse('<h1> Blog Login Page </h1>')
 
+def payment(request):
 
+    return HttpResponse('<h1> Blog Payment Page </h1>')
